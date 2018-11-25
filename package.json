@@ -1,0 +1,19 @@
+{
+  "name": "@aboutweb/irrigable-packagejson",
+  "version": "1.0.0",
+  "description": "Use your packagejson files for build.",
+  "bin" : {
+    "irrigable-packagejson" : "./bin/cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies" : {
+    "@aboutweb/irrigable" : "^1.0.0",
+    "@aboutweb/irrigable-cli" : "^1.0.0"
+  }
+}
