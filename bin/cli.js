@@ -19,7 +19,7 @@ const options = new OptionParser({
   g : "glob",
   s : {
     long : "sourcemap",
-    default : true
+    default : "."
   }
 }).parse();
 
