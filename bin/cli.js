@@ -47,13 +47,10 @@ if(test) {
       stdio : "inherit"
     }, function(error, stdout, stderr) {
       if(error) {
-        console.log(error);
+        console.log(error.stack || error);
       }
       if(stdout) {
         console.log(stdout);
-      }
-      if(stderr) {
-        console.log(stderr);
       }
     }).on("error", console.warn);
   }
