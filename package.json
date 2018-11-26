@@ -1,6 +1,6 @@
 {
   "name": "@aboutweb/irrigable-packagejson",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Use your packagejson files for build.",
   "bin": {
     "irrigable-packagejson": "./bin/cli.js"
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/stephan-dum/irrigable-packagejson#readme",
   "dependencies": {
-    "@aboutweb/irrigable": "^0.0.3",
-    "@aboutweb/irrigable-cli": "^0.0.4"
+    "@aboutweb/irrigable": "^0.0.4",
+    "@aboutweb/irrigable-cli": "^0.0.5"
   }
 }
