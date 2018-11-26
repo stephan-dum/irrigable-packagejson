@@ -13,7 +13,7 @@ const options = new OptionParser({
   },
   w : {
     long : "watch",
-    default : false
+    default : true
   },
   o : "outputs",
   g : "glob",
