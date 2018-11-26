@@ -1,6 +1,6 @@
 {
   "name": "@aboutweb/irrigable-packagejson",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Use your packagejson files for build.",
   "bin": {
     "irrigable-packagejson": "./bin/cli.js"
