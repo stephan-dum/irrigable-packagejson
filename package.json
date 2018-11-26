@@ -1,19 +1,32 @@
 {
   "name": "@aboutweb/irrigable-packagejson",
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "Use your packagejson files for build.",
-  "bin" : {
-    "irrigable-packagejson" : "./bin/cli.js"
+  "bin": {
+    "irrigable-packagejson": "./bin/cli.js"
   },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "irrigable",
+    "build tool",
+    "cli",
+    "packagejson"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephan-dum/irrigable-packagejson.git"
+  },
+  "author": "Stephan Dum",
   "license": "ISC",
-  "dependencies" : {
-    "@aboutweb/irrigable" : "^1.0.0",
-    "@aboutweb/irrigable-cli" : "^1.0.0"
+  "bugs": {
+    "url": "https://github.com/stephan-dum/irrigable-packagejson/issues"
+  },
+  "homepage": "https://github.com/stephan-dum/irrigable-packagejson#readme",
+  "dependencies": {
+    "@aboutweb/irrigable": "^0.0.2",
+    "@aboutweb/irrigable-cli": "^0.0.3"
   }
 }
