@@ -103,8 +103,6 @@ class IrrigablePackageJSON extends Transform {
       && !formats.some((format) => format in options)
     );
 
-
-
     if(main) {
       if(noFormat) {
         options = {

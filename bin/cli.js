@@ -46,7 +46,7 @@ if(test) {
     return exec(test, {
       stdio : "inherit"
     }, function(error, stdout, stderr) {
-      console.log(stdout || stderr);
+      console.log(error || stdout || stderr);
     }).on("error", console.warn);
   }
 }
