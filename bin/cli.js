@@ -46,7 +46,15 @@ if(test) {
     return exec(test, {
       stdio : "inherit"
     }, function(error, stdout, stderr) {
-      console.log(error || stdout || stderr);
+      if(error) {
+        console.log(error);
+      }
+      if(stdout) {
+        console.log(stdout);
+      }
+      if(stderr) {
+        console.log(stderr);
+      }
     }).on("error", console.warn);
   }
 }
